@@ -7,37 +7,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-h1 {
-  color:aliceblue
-}
-h2 {
-  color:aliceblue
-}
-h3 {
-  color:aliceblue
-}
-h4 {
-  color:aliceblue
-}
-p {
-  color:aliceblue
-}
-li {
-  color:aliceblue
-}
-button {
-  margin-left: 10px;
-  color:aliceblue;
-  background-color: rgb(131, 131, 131);
-}
-input {
-  color:aliceblue;
-  background-color: rgb(131, 131, 131);
 }
