@@ -15,7 +15,7 @@ export const AppBar = () => {
     <>  {isLogin? <nav className={css.head}> 
     <div className={css.contacts_container}><NavLink to={'/contacts'} className={css.contacts}>Contacts</NavLink></div>
     <div className={css.l_r_link}><h4 className={css.SectionName_h4}>Welcome {user}!</h4> 
-    <div className={css.logOut_container}><a type='button' onClick={handleClick} to={'login'} className={css.logOut}>Log out</a></div></div></nav> : 
+    <div className={css.logOut_container}><p type='button' onClick={handleClick} to={'login'} className={css.logOut}>Log out</p></div></div></nav> : 
     <header>
       <nav className={css.head}>
           <div className={css.contacts_container}><NavLink to={'/contacts'} className={css.contacts}>Contacts</NavLink></div>

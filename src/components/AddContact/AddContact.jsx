@@ -15,13 +15,11 @@ export const AddContact = () => {
   return (
     
     <><HomePage />
-    {isLoggedIn && <>
-    <div className={css.addContact_btn}>
-    <div onClick={openModal} className={css.addContact_container}>
+    {isLoggedIn && <><div className={css.addContact_btn}><button onClick={openModal} className={css.addContact_container}>
     <p className={css.addContact}>
       Add Contact
     </p>
-  </div></div>
+  </button></div>
   <FilterСontacts />
   <ContactList /></>}
       {isModalOpen && <Modal onClose={closeModal} />}

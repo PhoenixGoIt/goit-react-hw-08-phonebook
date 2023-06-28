@@ -54,7 +54,7 @@ const RegisterForm = () => {
          required
        /></div>
           <h3 className={css.SectionName_h3}>Password</h3>
-          <div><input
+          <div className={css.input_container}><input
          onChange={(e) => onChangeInput(e.currentTarget.value)}
          className={css.input_form}
          type="tel"
