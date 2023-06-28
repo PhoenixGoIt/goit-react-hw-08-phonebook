@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 import  Login  from './LoginForm/LoginForm';
 import HomePage from './page/HomePage';
 import RegisterForm from './RegisterForm/RegisterForm';
-import { ContactForm } from './ContactForm/ContactForm';
 import AddContact from './AddContact/AddContact'
 export function App() {
   // const [name, setName] = useState('');
